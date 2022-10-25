@@ -1,0 +1,9 @@
+COMANDOS MÁS USADOS EN SELENIUM
+========================
+
+**Setear variables de entorno en el sistema**
+*Chorme*: System.setProperty("webdriver.chrome.driver", "./src/resources/chromedriver.exe");
+*Firefox*:System.setProperty("webdriver.gecko.driver", "./src/resources/geckodriver.exe");
+*Edge*:System.setProperty("webdriver.edge.driver", "./src/resources/msedgedriver.exe");
+
+
