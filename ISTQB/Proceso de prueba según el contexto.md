@@ -1,0 +1,4 @@
+Proceso de prueba según el contexto
+========================
+
+Depende de las particularidades de cada organización, es decir, la estrategia de pruebas que se debe seguir en un juego de video no es el mismo que sigue una aplicación bancaria. Se deben tomar en cuenta entre muchos factores que influyen, que tipo de producto se está probando, que riesgos están involucrados, que tan complejo es el producto, que modelo de desarrollo y metodologías están siendo usadas, cuáles son las políticas y reglamentos organizacionales que se deben cumplir, normas internas y externas, que tiempo, dinero, RR.HH. y de infraestructura hay disponible, entre otros factores.

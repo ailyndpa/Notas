@@ -1,0 +1,2 @@
+https://www.swhosting.com/es/comunidad/manual/como-instalar-jenkins-en-tu-servidor-linux
+https://www.compuhoy.com/como-instalar-jenkins-en-windows/#:~:text=Instalaci%C3%B3n%20de%20Jenkins%20Abra%20la%20ventana%20del%20s%C3%ADmbolo,el%20proceso.%20%C2%BFDe%20cu%C3%A1ntas%20formas%20puede%20instalar%20Jenkins%3F
