@@ -50,3 +50,9 @@ pm.expect(true).to.be.eql(someSchema);
 **GUARDAR TOKEN ACTUALIZADO**
 const res=pm.response.json();
 pm.globals.set('token',res.accessToken);
+
+
+jsonData = pm.response.json();
+****
+const keys= ['title', 'year', 'genre', 'director', 'rate'] 
+keys.map(key=> pm.globals.set(key, (data[key] && data[key] != '') ? data[key]: (jsonData[0])[key]))
