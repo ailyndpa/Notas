@@ -53,7 +53,20 @@ pm.globals.set('token',res.accessToken);
 
 
 jsonData = pm.response.json();
-**GUARDA LAS KEYS**
 
-const keys= ['title', 'year', 'genre', 'director', 'rate'] 
-keys.map(key=> pm.globals.set(key, (data[key] && data[key] != '') ? data[key]: (jsonData[0])[key]))
+**GUARDA LAS KEYS EN GLOBAL**
+jsonData = pm.response.json();
+/** 
+ * Save properties in global
+ * */
+const defaultKeys = ['title', 'year', 'genre', 'director', 'rate'];
+/**
+ * Extraer propiedades del response
+ * if not response
+ * else
+ * defaul Value 
+ * */
+const keys = jsonData?.lenght > 0 ? Object.keys(jsonData[0]) : defaultKeys;
+
+/**Asignar variables */
+keys.map(key => pm.globals.set(key, (data[key] && data[key] != '') ? data[key] : (jsonData[0])[key]))
