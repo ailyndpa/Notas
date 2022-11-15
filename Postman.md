@@ -70,3 +70,10 @@ const keys = jsonData?.lenght > 0 ? Object.keys(jsonData[0]) : defaultKeys;
 
 /**Asignar variables */
 keys.map(key => pm.globals.set(key, (data[key] && data[key] != '') ? data[key] : (jsonData[0])[key]))
+
+
+
+const params = pm.request.url.query.map(({key, value}) => ({
+    key,
+    value: (data[key] && data[key] != "" ) ? data[key]: value,
+}))
