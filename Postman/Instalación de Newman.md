@@ -8,7 +8,7 @@ Instalación de Newman
 5-**Ejecutar la colección de postman con newman desde la línea de comando para el caso de no necesitar variables de entorno:**
     newman run Movies.postman_collection.json 
 6- **Si precisa variable de entorno sería:** 
-    newman run Movies.postman_collection.json -e D:\Ailyn\POSTMAN\Newman\Movie.postman_environment.json
+    newman run Movies.postman_collection.json -e Movie.postman_environment.json
 7- **Si hace uso de un archivo json externo sería:**
-newman run Movies.postman_collection.json -e D:\Ailyn\POSTMAN\Newman\Movie.postman_environment.json -d D:\Ailyn\POSTMAN\Newman\data.json
+newman run Movies.postman_collection.json -e Movie.postman_environment.json -d D:\Ailyn\POSTMAN\Newman\data.json
 6- Para obtener el reporte de los resultados en un HTML se debe ejecutar la siguiente instrucción en la línea de comandos **newman run PruebaGoogle.postman_collection.json -r htmlextra --reporter-htmlextra-title "Informe Prueba Google"** este generará un archivo en formato HTML.
