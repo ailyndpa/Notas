@@ -13,3 +13,4 @@ Instalación de Newman
 newman run Movies.postman_collection.json -e Movie.postman_environment.json -d data.json
 8-  **Para obtener el reporte de los resultados en un HTML se debe ejecutar la siguiente instrucción en la línea de comandos** 
 newman run Movies.postman_collection.json -e Movie.postman_environment.json -d data.json -r htmlextra --reporter-htmlextra-title "Inf"
+
