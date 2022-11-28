@@ -16,4 +16,4 @@ newman run Movies.postman_collection.json -e Movie.postman_environment.json -d d
 
 C:\Users\adelpino.CHF\AppData\Roaming\npm>
 
-newman run EasyPOC.postman_collection.json -e DEV.postman_environment.json -d E2E.json -r htmlextra --reporter-htmlextra-title "Inf" --insecure
+newman run EasyPOC.postman_collection.json -e DEV.postman_environment.json -d E2E.json -r htmlextra --reporter-htmlextra-title "EasyPOC" --insecure
