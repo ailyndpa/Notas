@@ -14,43 +14,8 @@ newman run Movies.postman_collection.json -e Movie.postman_environment.json -d d
 8-  **Para obtener el reporte de los resultados en un HTML se debe ejecutar la siguiente instrucción en la línea de comandos** 
 newman run Movies.postman_collection.json -e Movie.postman_environment.json -d data.json -r htmlextra --reporter-htmlextra-title "Inf"
 
+**-r htmlextra --reporter-htmlextra-title "Easy POC" --insecure**
+
 C:\Users\adelpino.CHF\AppData\Roaming\npm>
 
 newman run EasyPOC.postman_collection.json -e DEV.postman_environment.json -d E2E.json -r htmlextra --reporter-htmlextra-title "EasyPOC" --insecure
-
-CHECKIN
-/**Obtengo el mensaje a partir del codigo de la respuesta */
-function getMessage(code){
-    const pass= pm.globals.get('currentPass').toString();
-    switch(code){
-        case 0:
-            if(pass == "Diplomatico" || pass == "Pasajero_Mayor" || pass == "Pasajero_Infante"){
-                return `${pass} Permitido Para Embarcar`;
-            }else if(pass == "Tripulación"){
-                return "Tripulante Permitido Para Embarcar";
-            } else return "Militar de la ONU Permitido Para Embarcar";
-            
-        case 1:
-            return "Vuelo no habilitado para embarcar";
-        case 3:
-            return "No existe el codigo vip";
-         case 11:
-            return "El vuelo no existe";
-        case 16:
-            return "No esta difinido el tipo para esta pasarela";
-        case 17:
-            return "Pasarela no habilitada";
-        case 21:
-            return "El pasajero ya embarcó";
-        case 24:
-            return "No se condice el BCBP con el tipo de Pasajero";
-        case 25:
-            return "Vuelo despegado";
-        default: console.log('Código no registrado')
-    }
-}
-/**Verifica que el mensaje de la respuesta sea igual al mensaje según el codigo */
-pm.test(`CheckIn message code ${jsonData.code}`, ()=>{
-    const sms= getMessage(jsonData.code);
-    pm.expect(jsonData.message).to.eq(sms);
-});
