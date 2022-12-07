@@ -4,4 +4,4 @@ Azure DevOps
 ssh-keygen -C "adelpino@chf.uy"
 
 git remote add origin https://ecsolutionsprojects@dev.azure.com/ecsolutionsprojects/ECAirport/_git/EasyWeb
-git push -u origin --all
+git push -u azure --all
