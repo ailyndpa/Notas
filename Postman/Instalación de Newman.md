@@ -17,7 +17,7 @@ newman run Movies.postman_collection.json
  -d data.json 
  -r htmlextra --reporter-htmlextra-title "Easy-Airport"
  --insecure
-
+ESTO ES ANTE PROBLEMAS CON CERTIFICADOS
 **-r htmlextra --reporter-htmlextra-title "Easy POC" --insecure**
 
 C:\Users\adelpino.CHF\AppData\Roaming\npm>
