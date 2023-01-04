@@ -15,8 +15,7 @@ newman run Movies.postman_collection.json -e Movie.postman_environment.json -d d
 newman run Movies.postman_collection.json
  -e Movie.postman_environment.json 
  -d data.json 
- -r htmlextra --reporter-htmlextra-title "Easy-Airport"
- --insecure
+ -r htmlextra --reporter-htmlextra-title "Easy-Airport" --insecure
 ESTO ES ANTE PROBLEMAS CON CERTIFICADOS
 **-r htmlextra --reporter-htmlextra-title "Easy POC" --insecure**
 
