@@ -21,3 +21,5 @@ Ahora se lanzará la página de configuración de Jenkins, que se utiliza para c
 Ahora los plugins serán descargados e instalados.
 
 **Paso 9:** Una vez que los plugins se instalen con éxito, se le pedirá que cree una cuenta de administrador proporcionando un nombre de usuario, una contraseña y una dirección de correo electrónico. Una vez creado el perfil de administrador, se le dirigirá al panel de control de Jenkins.
+
+Ahora el Jenkins está instalado y configurado en el localhost, y podrás ver el dashboard de Jenkins.
