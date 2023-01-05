@@ -12,6 +12,7 @@ PASOS:
     *Se le asigna un nombre descriptivo
     *En script adicionar: 
         npm install -g newman
+    *En Advenced:
         
         
 
