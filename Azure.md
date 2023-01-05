@@ -18,7 +18,7 @@ PASOS:
     * En script adicionar: newman run apiRest.postman_collection.json -d data.json --reporters cli,junit --reporter-junit-export junit-report.xml
     *En Advenced Adicionar en working directory: $(System.DefaultWorkingDirectory)
 11- Repetir paso 6
-12- 
+12- Poner en el campo de busqueda Publish Test Results  y adiciona
 
 $(System.DefaultWorkingDirectory)
 
