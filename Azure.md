@@ -13,6 +13,7 @@ PASOS:
     *En script adicionar: 
         npm install -g newman
         
+        
 
 $(System.DefaultWorkingDirectory)
 
