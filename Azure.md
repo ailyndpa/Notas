@@ -12,8 +12,8 @@ PASOS:
     *Se le asigna un nombre descriptivo
     *En script adicionar: 
         npm install -g newman
-    *En Advenced:
-        
+    *En Advenced  Adicionar en working directory: :
+       $(System.DefaultWorkingDirectory)
         
 
 $(System.DefaultWorkingDirectory)
