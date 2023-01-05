@@ -21,7 +21,8 @@ PASOS:
 12- Poner en el campo de busqueda Publish Test Results  y adicionarlo
 13- Especificar en el campo Search folder: $(System.DefaultWorkingDirectory)
 14- Seleccionar boton Save & requeue/Save & requeue
-15- 
+15- Especificar en Agent Specification: windows-latest
+
 
 $(System.DefaultWorkingDirectory)
 
