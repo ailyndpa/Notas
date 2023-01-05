@@ -22,7 +22,8 @@ PASOS:
 13- Especificar en el campo Search folder: $(System.DefaultWorkingDirectory)
 14- Seleccionar boton Save & requeue/Save & requeue
 15- Especificar en Agent Specification: windows-latest y seleccionar boton save and run
-16- Seleccio
+16- Seleccionas el job y esperas a que termine la ejecucion
+
 
 
 $(System.DefaultWorkingDirectory)
