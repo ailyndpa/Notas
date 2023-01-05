@@ -10,8 +10,9 @@ PASOS:
 7- Poner en el campo de busqueda Command line y adicionarlo
 8- Editar el comando adicionado:
     *Se le asigna un nombre descriptivo
-    *En script: 
-       - Adicionar npm ins
+    *En script adicionar: 
+        npm install -g newman
+        
 
 $(System.DefaultWorkingDirectory)
 
