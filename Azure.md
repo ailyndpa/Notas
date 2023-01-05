@@ -19,7 +19,8 @@ PASOS:
     *En Advenced Adicionar en working directory: $(System.DefaultWorkingDirectory)
 11- Repetir paso 6
 12- Poner en el campo de busqueda Publish Test Results  y adicionarlo
-13- Especificar en el campo search fol
+13- Especificar en el campo Search folder: $(System.DefaultWorkingDirectory)
+14
 
 $(System.DefaultWorkingDirectory)
 
