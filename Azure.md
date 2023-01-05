@@ -23,6 +23,7 @@ PASOS:
 14- Seleccionar boton Save & requeue/Save & requeue
 15- Especificar en Agent Specification: windows-latest y seleccionar boton save and run
 16- Seleccionas el job y esperas a que termine la ejecucion
+17- dirigirse a publish test result y en 
 
 
 
