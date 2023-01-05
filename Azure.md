@@ -8,6 +8,7 @@ PASOS:
 5- Seleccionar el link empty job
 6- Seleccionar el icono + al lado de Agent job 1
 7- Poner en el campo de busqueda Command line y adicionarlo
+8- Editar el comando adicionado
 
 $(System.DefaultWorkingDirectory)
 
