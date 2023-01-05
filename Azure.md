@@ -7,7 +7,7 @@ PASOS:
 4- Seleccionar el team project, el repositorio y presionar el boton continuar
 5- Seleccionar el link empty job
 6- Seleccionar el icono + al lado de Agent job 1
-7- Poner en el campo de busqueda Commant line y adicionarlo
+7- Poner en el campo de busqueda Command line y adicionarlo
 
 $(System.DefaultWorkingDirectory)
 
