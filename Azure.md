@@ -12,8 +12,9 @@ PASOS:
     *Se le asigna un nombre descriptivo
     *En script adicionar: npm install -g newman
     *En Advenced Adicionar en working directory: $(System.DefaultWorkingDirectory)
-9- Repetir paso 67
-10- 
+9- Repetir paso 6 y 7
+10- Editar el comando adicionado:
+    *Asignarle un nombre descriptiv
 
 $(System.DefaultWorkingDirectory)
 
