@@ -16,7 +16,7 @@ PASOS:
 10- Editar el comando adicionado:
     *Asignarle un nombre descriptivo
     * En script adicionar: newman run apiRest.postman_collection.json -d data.json --reporters cli,junit --reporter-junit-export junit-report.xml
-    * 
+    *En Advenced Adicionar en working directory: $(System.DefaultWorkingDirectory)
 
 $(System.DefaultWorkingDirectory)
 
